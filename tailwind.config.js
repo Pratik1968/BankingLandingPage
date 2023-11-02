@@ -42,10 +42,18 @@ colors:{
 
 
 
+},
+keyframes:{
+  fadeIn:{
+'0%':{opacity:"0%"},
+'100%':{opacity:"100%"},
+  }
+},
+animation :{
+  "fadeIn":"fadeIn 700ms"
 }
+    ,
 
-    },
-  },
   plugins: [],
 }
-
+}}
