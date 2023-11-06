@@ -1,0 +1,12 @@
+.logo {
+    background-image: url('../assets/Logo_Mobile.png');
+    background-size: cover;
+  }
+  
+  /* Media query for laptops/desktops (typical screens with a width of 1024px and above) */
+  @media screen and (min-width: 1024px) {
+    .logo {
+      background-image: url('../assets/Logo_Desktop.png');
+      background-size: cover;
+    }
+  }

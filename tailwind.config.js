@@ -45,14 +45,31 @@ colors:{
 },
 keyframes:{
   fadeIn:{
-'0%':{opacity:"0%"},
-'100%':{opacity:"100%"},
+'0%':{opacity:'0%'},
+'100%':{opacity:'100%'},
+  },
+  fadeOut:{
+    '0%':{opacity:'100%',},
+    '100%':{opacity:'0%',},
+      },
+  Rotate: {
+    '0%': { transform: 'rotate(0.0deg)' },
+ 
+    '100%': { transform: 'rotate(90deg)' },
+  },
+  reverseRotate:{
+    '0%':{transform:'rotate(90deg)'},
+    '100%':{transform:'rotate(0.0deg)'}
   }
+
 },
 animation :{
-  "fadeIn":"fadeIn 700ms"
-}
-    ,
+  'fadeIn':'fadeIn 700ms',
+  'fadeOut':'fadeOut 700ms ',
+
+  'RotateClose': 'Rotate 200ms linear ',
+  'reverseRotateClose':'reverseRotate 200ms linear',
+},
 
   plugins: [],
 }
